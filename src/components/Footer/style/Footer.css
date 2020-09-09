@@ -1,0 +1,18 @@
+footer{
+    background: var(--primary-color);
+    display: flex;
+    box-sizing: border-box;
+    padding: 1em 2em;
+    justify-content: space-between;
+}
+
+footer p{
+    font-weight: 500;
+    color: var(--white);
+}
+
+footer p a{
+    color: var(--medium-color);
+    text-decoration: underline;
+    font-weight: bold;
+}

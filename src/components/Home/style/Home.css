@@ -1,0 +1,194 @@
+.welcome{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.welcome .illustrationWelcome{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.welcome .illustrationWelcome img{
+    width: 100%;
+}
+
+.welcome .contentWelcome{
+    position: absolute;
+    width: 40%;
+    box-sizing: border-box;
+    padding: 3em;
+    border-radius: 0em 2em 2em 0em;
+    background: var(--medium-color);
+} 
+
+.welcome .contentWelcome h2{
+    color: var(--black);
+}
+
+.welcome .contentWelcome p{
+    margin: 1em 0em;
+    color: var(--white);
+}
+
+.HowDoesItWork{
+    width: 100%;
+}
+
+.HowDoesItWork .explanations{
+    padding: 1em 2em;
+    box-sizing: border-box;
+    display: flex;
+    background: var(--white);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HowDoesItWork .explanations .explanationIllustrator{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.HowDoesItWork .explanations .explanationIllustrator img{
+    width: auto;
+    height: 400px;
+}
+
+.HowDoesItWork .explanations:nth-child(2n){
+    background: #ffaeeb;
+}
+
+.HowDoesItWork .explanations .contentExplanation{
+    width: 40%;
+    background: var(--medium-color);
+    box-sizing: border-box;
+    padding: 2em;
+    border-radius: 18px;
+}
+
+.HowDoesItWork .explanations .contentExplanation p{
+    margin: 1em 0em;
+}
+
+.HowDoesItWork .explanations .contentExplanation h3{
+    color: black;
+    font-size: 1.8rem;
+}
+
+.HowDoesItWork .explanations:nth-child(2n) .contentExplanation{
+    order: 2;
+    background: var(--white);
+}
+
+.installAppContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--secondary-color);
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.installAppContainer .installAppIlustration{
+    width: 50%;
+}
+
+.installAppContainer .installAppIlustration img{
+    width: 100%;
+}
+
+.installAppContainer .installAppContent{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.installAppContainer .installAppContent button{
+    margin: 1.5em 0em;
+    padding: 1em 3em;
+    border-radius: 2em;
+    border: none;
+    font-size: 1rem;
+    background: var(--medium-color);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.installAppContainer .installAppContent p{
+    color: var(--white);
+    font-size: 0.8rem;
+}
+
+.installAppContainer .installAppContent h2{
+    color: var(--white);
+    font-size: 1.8rem;
+}
+
+.capture{
+    box-sizing: border-box;
+    padding: 3em 2em;
+    background: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.capture .captureContent{
+    width: 50%;
+}
+
+.capture .captureContent h2{
+    color: var(--white);
+    font-size: 1.8rem;
+
+}
+
+.capture .captureContent p{
+    color: var(--white);
+    margin-top: 1em;
+}
+
+.capture .captureBtns{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.capture .captureBtns a{
+    margin: 1em 0em;
+    background: var(--white);
+    padding: 1em 3em;
+    width: 50%;
+    text-align: center;
+    border-radius: 2em;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.capture .captureBtns a img{
+    width: 25px;
+    margin-left: 1em;
+}
+
+.capture .captureBtns .btnBehaceCapture{
+    color: var(--white);
+    background: #1976d3;
+}
+
+.capture .captureBtns .btnGithubCapture{
+    color: var(--white);
+    background: #222;
+}
